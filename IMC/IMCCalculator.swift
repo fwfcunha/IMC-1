@@ -38,7 +38,7 @@ class IMCCalculator {
     private func calculate(weight: Double, height: Double) {
         value = weight/(height*height)
         switch value {
-        case 0..<160:
+        case 0..<16:
             imcResult = .thinnes
             imageName = "magreza"
         case 16..<18.5:
